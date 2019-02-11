@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="../css/CSS.css">
   <head>
     <meta charset="utf-8">
-    <title>index</title>
+    <title></title>
     <div class="dropdown">
     <img src="../fotos/menu1.png"></img>
     <div class="dropdown-content">
@@ -14,10 +14,6 @@
   </div>
   </head>
   <body>
-    <h1>Consoles vs PC</h1>
-    <div id="p1">
-      Deze site gaat over consoles vs PC
-    </div>
     <?php
 
      ?>
