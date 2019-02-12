@@ -15,7 +15,7 @@
 
 
 
-/* Dropdown Content (Hidden by Default) */
+/* De content van de Dropdown, is hidden bij default */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -25,7 +25,7 @@
   z-index: 1;
 }
 
-/* Links inside the dropdown */
+/* De links in de dropdown */
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -33,12 +33,10 @@
   display: block;
 }
 
-/* Change color of dropdown links on hover */
+/* Veranderd de kleur van de dropdown links als je erover heen gaat*/
 .dropdown-content a:hover {background-color: #f1f1f1}
 
-/* Show the dropdown menu on hover */
+/* Laat de dropdown menu zien als je over de menu knop gaat */
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
