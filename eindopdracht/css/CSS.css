@@ -27,12 +27,21 @@ body {
   margin: 0;
   background-image: url('../fotos/achtergrond_forum.jpg');
 }
+h1 {
+  color: black;
+}
 
 .logo {
   z-index: 1;
+  margin-top: -80px;
 }
 .top {
   background-color: #3D5DD2;opacity: 0.75;
   width: 100%;
-  height: 150px;
+  height: 100px;
+}
+.logoplek {
+  background-color: #E1F0FD;opacity: 0.75;
+  width: 100%;
+  height: 120px;
 }
