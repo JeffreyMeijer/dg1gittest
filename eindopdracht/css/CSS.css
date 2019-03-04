@@ -45,7 +45,7 @@ h1 {
   width: 100%;
   height: 100px;
 }
-.logoplek {
+.logoplek #balk{
   background-color: #E1F0FD;opacity: 0.75;
   width: 100%;
   height: 120px;
@@ -56,12 +56,27 @@ h1 {
   margin-top: 15px;
   position: absolute;
 }
-.logoplek .zoek{
+.logoplek .zoek {
   position: absolute;
-  text-align: right;
-  margin-top: 1px;
+  margin-top: -80px;
   margin-left: 1350px;
-
+}
+.logoplek .zoek #button{
+  position: absolute;
+  display: inline-block;
+  background-color:#3A74FA;
+  padding: 10px 50px;
+  z-index: 100;
+}
+.logoplek .zoek #blauw{
+  position: absolute;
+  background-color: #659BEC;
+  display: inline-block;
+  width: 100px;
+  height: 39px;
+  margin-top: 2px;
+  margin-left: -50px;
+  z-index: 99;
 }
 .header {
   position: absolute;
@@ -72,7 +87,7 @@ h1 {
 .topic {
   background-color: #2F68E3;
   position: absolute;
-  margin-top: 10px;
+  margin-top: 25px;
   margin-left: 60px;
   width: 1400px;
   text-align: left;
